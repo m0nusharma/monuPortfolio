@@ -1,0 +1,140 @@
+[debug] [2024-01-10T11:20:02.674Z] ----------------------------------------------------------------------
+[debug] [2024-01-10T11:20:02.676Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-10T11:20:02.677Z] CLI Version:   13.0.3
+[debug] [2024-01-10T11:20:02.677Z] Platform:      win32
+[debug] [2024-01-10T11:20:02.677Z] Node Version:  v21.3.0
+[debug] [2024-01-10T11:20:02.677Z] Time:          Wed Jan 10 2024 16:50:02 GMT+0530 (India Standard Time)
+[debug] [2024-01-10T11:20:02.677Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-10T11:20:02.777Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-10T11:20:02.778Z] > authorizing via signed-in user (sharmamonu42969@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\Downloads\lilonreactjs-10\lilonreactjs-10\lilon
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-10T11:20:13.323Z] Using project from CLI flag: monu-portfolio-24f19
+[debug] [2024-01-10T11:20:13.327Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/monu-portfolio-24f19 [none]
+[debug] [2024-01-10T11:20:14.671Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/monu-portfolio-24f19 200
+[debug] [2024-01-10T11:20:14.672Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/monu-portfolio-24f19 {"projectId":"monu-portfolio-24f19","projectNumber":"522663225545","displayName":"Monu Portfolio","name":"projects/monu-portfolio-24f19","resources":{"hostingSite":"monu-portfolio-24f19"},"state":"ACTIVE","etag":"1_b0c7074e-db7f-4f01-9e1b-7c14682216e8"}
+[info] i  Using project monu-portfolio-24f19 (Monu Portfolio) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-10T11:20:14.695Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/monu-portfolio-24f19 [none]
+[debug] [2024-01-10T11:20:15.191Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/monu-portfolio-24f19 200
+[debug] [2024-01-10T11:20:15.192Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/monu-portfolio-24f19 {"projectId":"monu-portfolio-24f19","projectNumber":"522663225545","displayName":"Monu Portfolio","name":"projects/monu-portfolio-24f19","resources":{"hostingSite":"monu-portfolio-24f19"},"state":"ACTIVE","etag":"1_b0c7074e-db7f-4f01-9e1b-7c14682216e8"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote build/404.html 
+[debug] [2024-01-10T11:20:28.813Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-01-10T11:20:29.639Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-01-10T11:20:29.639Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.7.1","browserURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.tgz"},"live":{"version":"10.7","browserURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.7.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.7.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.7.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.7.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\HP\Downloads\lilonreactjs-10\lilonreactjs-10\lilon 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=698373378&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-01-10T11:20:30.785Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-01-10T11:20:30.786Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-01-10T11:20:31.756Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-01-10T11:20:31.757Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-01-10T11:20:31.799Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-01-10T11:20:32.529Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-01-10T11:20:32.530Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"m0nusharma","id":130668086,"node_id":"U_kgDOB8nWNg","avatar_url":"https://avatars.githubusercontent.com/u/130668086?v=4","gravatar_id":"","url":"https://api.github.com/users/m0nusharma","html_url":"https://github.com/m0nusharma","followers_url":"https://api.github.com/users/m0nusharma/followers","following_url":"https://api.github.com/users/m0nusharma/following{/other_user}","gists_url":"https://api.github.com/users/m0nusharma/gists{/gist_id}","starred_url":"https://api.github.com/users/m0nusharma/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/m0nusharma/subscriptions","organizations_url":"https://api.github.com/users/m0nusharma/orgs","repos_url":"https://api.github.com/users/m0nusharma/repos","events_url":"https://api.github.com/users/m0nusharma/events{/privacy}","received_events_url":"https://api.github.com/users/m0nusharma/received_events","type":"User","site_admin":false,"name":"MONU SHARMA","company":null,"blog":"","location":"CHANDIGARH","email":null,"hireable":null,"bio":"Passionate about creating intuitive user experiences and building visually stunning websites.","twitter_username":null,"public_repos":11,"public_gists":0,"followers":3,"following":6,"created_at":"2023-04-13T12:38:55Z","updated_at":"2024-01-09T17:19:48Z","private_gists":1,"total_private_repos":0,"owned_private_repos":0,"disk_usage":47730,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as m0nusharma 
+[info] 
+[debug] [2024-01-10T11:21:39.760Z] >>> [apiv2][query] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key type=owner
+[debug] [2024-01-10T11:21:41.016Z] <<< [apiv2][status] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key 404
+[debug] [2024-01-10T11:21:41.017Z] <<< [apiv2][body] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-10T11:21:51.835Z] >>> [apiv2][query] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key type=owner
+[debug] [2024-01-10T11:21:51.998Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-01-10T11:21:52.132Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-01-10T11:21:52.273Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-01-10T11:21:52.368Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-01-10T11:21:52.677Z] <<< [apiv2][status] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key 404
+[debug] [2024-01-10T11:21:52.677Z] <<< [apiv2][body] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-10T11:21:52.695Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-01-10T11:21:52.695Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-10T11:21:52.716Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-01-10T11:21:52.716Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-10T11:21:53.098Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-01-10T11:21:53.099Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-10T11:21:53.112Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-01-10T11:21:53.113Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-10T11:21:56.119Z] >>> [apiv2][query] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key type=owner
+[debug] [2024-01-10T11:21:56.636Z] <<< [apiv2][status] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key 404
+[debug] [2024-01-10T11:21:56.636Z] <<< [apiv2][body] GET https://api.github.com/repos/Portfolio/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
