@@ -1,4 +1,6 @@
-{
+import Profile from "../Asset/images/mein.png"
+
+export const data = {
   "headerData": {
     "logoDark": "/public/images/logo.png",
     "logoLight": "/images/logo-light.svg"
@@ -6,7 +8,7 @@
   "heroData": {
     "title": "My name<br />is <b>MONU</b> <span><br />ShARMA</span>",
     "subTitle": "<span>UI Developer</span> based in <span>INDIA</span>",
-    "ImgLink": "/public/images/mein.png",
+    "ImgLink": Profile,
     "phone": "+91 9877615401",
     "email": "sharmamonu42969@gmail.com",
     "btnText": "Work with me",
