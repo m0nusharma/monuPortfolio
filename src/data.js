@@ -1,7 +1,21 @@
 import logo from '../public/Asset/logo.png'
 import Profile from "../public/Asset/mein.png"
 import twoProfile from "../public/Asset/monuGDSC.jpg"
-
+import webdesign from "../public/Asset/web.png"
+import ui from "../public/Asset/ui.jpg"
+import MobileApp from "../public/Asset/aplication.jpg"
+import graphic from "../public/Asset/graphic.jpg"
+import homeService from "../public/Asset/homeService.png"
+import appoitment from "../public/Asset/Appointment.png"
+import socail from "../public/Asset/social.png"
+import flipkart from "../public/Asset/flipkart (1).png"
+import html from "../public/Asset/html.png"
+import css from "../public/Asset/css.png"
+import js from "../public/Asset/js.jpg"
+import bootstrap from "../public/Asset/bootstrap.png"
+import tailwind from "../public/Asset/tailwind.png"
+import react from "../public/Asset/react.png"
+import resume from "../public/Asset/MyResume.jpg"
 
 export const data = {
   "headerData": {
@@ -35,7 +49,7 @@ export const data = {
       "ImgLink": twoProfile,
       "name": "Monu Sharma",
       "designation": "UI Developer <span>based in</span> INDIA",
-      "resumeCv": "/public/images/MyResume.jpg"
+      "resumeCv": resume
     },
     "aboutRight": {
       "aboutText": "Enthusiastic and detail-oriented Front-End Developer, born in 2001 and currently residing in Panchkula, Haryana. Passionate about delivering on-screen design excellence for websites and apps, with a commitment to front-end implementation. Eager to contribute creativity, dedication, and a continuous improvement mindset to a dynamic development team. Committed to refining coding skills and exploring diverse expressions in web development.",
@@ -74,18 +88,18 @@ export const data = {
   },
   "experienceData": {
     "text": "Hello there! My name is Monu Sharma. I am a web designer & developer, and Im very passionate and dedicated to my work.",
-    "resumeCv": "/public/images/MyResume.jpg",
+    "resumeCv": resume,
     "experience": [
       {
         "start": "2022",
-        "end": "Pursuring",
+        "end": "Pursuing",
         "title": "Bsc Graphics and web Designing",
-        "subtitle": "Chandigarh group of college, Landran"
+        "subtitle": "Chandigarh group of college, Landran."
       },
       {
         "start": "2021",
         "end": "2022",
-        "title": "12TH Humanites",
+        "title": "12TH Humanities",
         "subtitle": "Govt Senior Secondary School, Chandigarh"
       },
       {
@@ -101,54 +115,54 @@ export const data = {
       "title": "Web Design",
       "heading": "Experienced and creative web designer with a passion",
       "triger": "One",
-      "imgLink": "/public/images/web.png",
+      "imgLink": webdesign,
       "text": "Experienced and creative web designer with a passion for developing visually appealing and user-friendly websites. Seeking a challenging position to leverage my skills in graphic design, coding, and problem-solving to contribute to the success of a dynamic team."
     },
     {
       "title": "UI/UX Design",
       "heading": "Dedicated and skilled UI/UX designer with a proven track record",
       "triger": "Two",
-      "imgLink": "/public/images/ui.jpg",
+      "imgLink": ui,
       "text": "Dedicated and skilled UI/UX designer with a proven track record of creating visually stunning and intuitive interfaces. Seeking a challenging role to leverage my expertise in UI design, user experience optimization, and front-end development for impactful and user-centric digital experiences."
     },
     {
       "title": "Mobile Application",
       "heading": "Talented application designer with a strong",
       "triger": "Three",
-      "imgLink": "/public/images/aplication.jpg",
+      "imgLink": MobileApp,
       "text": "Talented application designer with a strong background in creating visually stunning and intuitive interfaces for both web and mobile platforms. Seeking a challenging role to leverage my skills in application design, user experience optimization, and cross-platform development for impactful and seamless digital experiences."
     },
     {
       "title": "Graphic Design",
       "heading": "Versatile graphic designer with a keen eye for detail and a passion",
       "triger": "Four",
-      "imgLink": "/public/images/graphic.jpg",
+      "imgLink": graphic,
       "text": "Versatile graphic designer with a keen eye for detail and a passion for creating visually compelling and effective design solutions. Seeking a challenging role to leverage my skills in graphic design, branding, and visual communication to contribute to dynamic projects and teams."
     }
   ],
   "portfolioData": [
     {
-      "ImgLink": "/public/images/homeService.png",
+      "ImgLink": homeService,
       "subTitle": "Home Service Application Interface",
       "title": "Mobile Application",
       "link": "https://unique-tapioca-d01748.netlify.app/",
       "paragraphList": [
         {
-          "text": "The home service application, crafted with a user-centric approach using React, promises a seamless and intuitive user interface that transforms mundane household tasks into efficient and enjoyable experiences. The design prioritizes simplicity, allowing users to effortlessly navigate through various features. With React's component-based architecture, the application achieves a high level of modularity, enabling easy maintenance and scalability as the user base expands."
+          "text": "As a testament to my proficiency in web development, I present a meticulously crafted HTML and CSS clone of a book appointment web design. This project reflects my dedication to creating user-centric interfaces, as I recreated the essential features and aesthetics of an appointment booking platform. The HTML structure and CSS styling seamlessly emulate the original design, showcasing my attention to detail and commitment to delivering intuitive and visually appealing web solutions."
         },
         {
-          "text": "At the core of the application is a feature-rich dashboard that empowers users to effortlessly book and manage a wide range of home services. React's dynamic rendering capabilities enhance the responsiveness of the interface, providing users with real-time updates and notifications. The sleek and modern design not only reflects the application's technological sophistication but also contributes to a positive and engaging user experience. From scheduling appointments to tracking service providers, every aspect is carefully designed to streamline the entire home service process."
+          "text": "The book appointment web design clone demonstrates my expertise in creating functional and responsive interfaces that prioritize a smooth user experience. Through the use of HTML forms and CSS styling, I ensured that users can effortlessly navigate and interact with the appointment booking process. The design not only replicates the essential elements of a booking platform but also showcases my ability to implement clear and concise user interfaces, making the appointment scheduling process efficient and user-friendly."
         },
         {
-          "text": "Moreover, the React-based home service application embraces a user-friendly aesthetic that goes beyond functionality. Intuitive color schemes and interactive elements create an inviting atmosphere, making users feel at ease while navigating the application. The commitment to accessibility ensures that the application caters to a diverse user base. In summary, the React-powered home service application is not just a utilitarian tool but a well-crafted solution that harmonizes functionality, aesthetics, and accessibility, setting a new standard in the realm of home service applications."
+          "text": "This project is a testament to my commitment to continuous learning and practical application of web development principles. By recreating a book appointment web design, I not only honed my HTML and CSS skills but also gained valuable insights into the intricacies of user interface design. This clone serves as a tangible example of my capability to translate design concepts into functional web pages and underscores my dedication to delivering high-quality, user-centered web solutions in the ever-evolving field of web development."
         }
        
       ]
     },
     {
-      "ImgLink": "/public/images/social.png",
-      "subTitle": "Socail Media Web Interface",
-      "title": "Socail Media",
+      "ImgLink": appoitment,
+      "subTitle": "Book Appointment Web Interface",
+      "title": "Book Appointment ",
       "link": "https://peppy-phoenix-0b9fe5.netlify.app/",
       "paragraphList": [
         {
@@ -163,24 +177,24 @@ export const data = {
       ]
     },
     {
-      "ImgLink": "/public/images/education.png",
-      "subTitle": "NEEED Education web Interface",
-      "title": "NEEED Learing",
+      "ImgLink": socail,
+      "subTitle":"NEEED Education web Interface",
+      "title": "Analysis",
       "link": "https://stirring-flan-9bb2c9.netlify.app/",
       "paragraphList": [
         {
-          "text": "In my portfolio, I showcase an educational web design meticulously crafted with React, showcasing my commitment to creating engaging and user-friendly interfaces. Leveraging React's powerful component-based architecture, this project provides a seamless and intuitive experience for users navigating through educational content. The design prioritizes clarity and simplicity, ensuring that learners can easily access and interact with educational materials, fostering an environment conducive to effective learning.."
+          "text": "In my web development portfolio, I proudly present an educational clone that dynamically tracks and displays students' course completion progress. This HTML and CSS-based web design not only mirrors the aesthetic appeal of modern educational platforms but also incorporates a real-time progress tracking system. Leveraging HTML for structure and CSS for styling, I crafted an intuitive interface that visually represents each student's progress, fostering a sense of accomplishment and motivation as they advance through their courses."
         },
         {
-          "text": "The heart of the educational web design lies in its thoughtful incorporation of interactive elements and user-centric features. React's dynamic rendering capabilities enhance the responsiveness of the interface, enabling real-time updates and personalized learning experiences. Through a clean and modern aesthetic, the design not only reflects the educational nature of the content but also promotes a visually appealing atmosphere that encourages user engagement. With features such as progress tracking, interactive quizzes, and a user-friendly navigation system, the application becomes a valuable tool for learners seeking an enriching educational experience."
+          "text": "The core feature of this educational clone lies in its dynamic and responsive design, providing an engaging and interactive experience for students. The use of HTML forms allows students to update their completion percentages, while CSS styling ensures a visually cohesive and pleasing representation of the data. Whether a student has mastered HTML at 70%, CSS at 50%, or delved into JavaScript at 20% or more, the web design communicates their achievements clearly, fostering a user-centric environment that encourages continued learning and skill development."
         },
         {
-          "text": "Furthermore, this React-based educational web design underscores my dedication to creating technology solutions that make learning accessible and enjoyable. The design is responsive, ensuring a seamless experience across various devices, from desktops to mobile devices, and embraces accessibility standards to cater to diverse user needs. By integrating modern design principles with React's flexibility, the educational web design in my portfolio exemplifies my passion for leveraging technology to enhance the educational landscape, providing users with a platform that not only facilitates learning but also inspires a love for knowledge."
+          "text": "This project not only showcases my technical skills in HTML and CSS but also emphasizes my commitment to addressing practical educational needs through web development. By incorporating a progress tracking system, I aimed to enhance the user experience for students, providing them with a visually appealing and motivating platform to monitor their educational journey. This educational clone serves as a testament to my ability to merge design aesthetics with functionality, creating a user-friendly interface that aligns with the evolving landscape of online education."
         }
       ]
     },
     {
-      "ImgLink": "/public/images/flipkart (1).png",
+      "ImgLink": flipkart,
       "subTitle": "Flipkart clone Interface",
       "title": "FlipKart Clone",
       "link": "https://playful-hotteok-30de19.netlify.app/#",
@@ -326,22 +340,22 @@ export const data = {
       },
       "info": [
         {
-          "imgLink": "/public/images/html.png"
+          "imgLink": html
         },
         {
-          "imgLink": "/public/images/css.png"
+          "imgLink": css
         },
         {
-          "imgLink": "/public/images/bootstrap.png"
+          "imgLink":js
         },
         {
-          "imgLink": "/public/images/tailwind.png"
+          "imgLink": bootstrap
         },
         {
-          "imgLink": "/public/images/js.jpg"
+          "imgLink": tailwind
         },
         {
-          "imgLink": "/public/images/react.png"
+          "imgLink": react
         }
       ]
     }
@@ -371,7 +385,7 @@ export const data = {
     }
   },
   "footerData": {
-    "ImgLink": "/public/images/mein.png",
+    "ImgLink": Profile,
     "name": "Monu Sharma"
   },
   "socialData": [
