@@ -9,7 +9,6 @@ const Testimonial = ({ data }) => {
     <section className="section testimonials-section bg-g">
       <div className="container">
         <SectionHeading title="Languages i am Doing." subTitle="Languages" />
-       
         <div className="testimonials-brand">
           <Carousel data={brandInfo} />
         </div>

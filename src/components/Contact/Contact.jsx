@@ -56,7 +56,7 @@ const Contact = ({ data }) => {
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-5">
-            <SectionHeading title="Reach out me" subTitle="Contact" />
+            <SectionHeading title="Reach out to me" subTitle="Contact" />
             <div className="contact-info">
               <ul>
                 {contactInfo.map((element, index) => (
