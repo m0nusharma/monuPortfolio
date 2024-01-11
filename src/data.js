@@ -1,14 +1,17 @@
-import Profile from "../Asset/images/mein.png"
+import logo from '../public/Asset/logo.png'
+import Profile from "../public/Asset/mein.png"
+import twoProfile from "../public/Asset/monuGDSC.jpg"
+
 
 export const data = {
   "headerData": {
-    "logoDark": "/public/images/logo.png",
+    "logoDark": logo,
     "logoLight": "/images/logo-light.svg"
   },
   "heroData": {
-    "title": "My name<br />is <b>MONU</b> <span><br />ShARMA</span>",
+    "title": "My name<br />is <b>MONU</b> <span><br />SHARMA</span>",
     "subTitle": "<span>UI Developer</span> based in <span>INDIA</span>",
-    "ImgLink": Profile,
+    "ImgLink":Profile,
     "phone": "+91 9877615401",
     "email": "sharmamonu42969@gmail.com",
     "btnText": "Work with me",
@@ -29,7 +32,7 @@ export const data = {
   },
   "aboutData": {
     "aboutLeft": {
-      "ImgLink": "/public/images/monuGDSC.jpg",
+      "ImgLink": twoProfile,
       "name": "Monu Sharma",
       "designation": "UI Developer <span>based in</span> INDIA",
       "resumeCv": "/public/images/MyResume.jpg"
