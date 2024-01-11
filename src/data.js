@@ -1,5 +1,6 @@
 import logo from '../public/Asset/logo.png'
 import Profile from "../public/Asset/mein.png"
+import myprofile from "../public/Asset/monuprofile.png"
 import twoProfile from "../public/Asset/monuGDSC.jpg"
 import webdesign from "../public/Asset/web.png"
 import ui from "../public/Asset/ui.jpg"
@@ -25,7 +26,7 @@ export const data = {
   "heroData": {
     "title": "My name<br />is <b>MONU</b> <span><br />SHARMA</span>",
     "subTitle": "<span>UI Developer</span> based in <span>INDIA</span>",
-    "ImgLink":Profile,
+    "ImgLink":myprofile,
     "phone": "+91 9877615401",
     "email": "sharmamonu42969@gmail.com",
     "btnText": "Work with me",
