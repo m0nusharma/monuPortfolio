@@ -16,7 +16,7 @@ import js from "../public/Asset/js.jpg"
 import bootstrap from "../public/Asset/bootstrap.png"
 import tailwind from "../public/Asset/tailwind.png"
 import react from "../public/Asset/react.png"
-import resume from "../public/Asset/MyResume.jpg"
+import resume from "../public/Asset/MonuResume.jpg"
 
 export const data = {
   "headerData": {
@@ -24,9 +24,9 @@ export const data = {
     "logoLight": "/images/logo-light.svg"
   },
   "heroData": {
-    "title": "My name<br />is <b>MONU</b> <span><br />SHARMA</span>",
+    "title": "Hello, <br />I'm <b>MONU</b> <span><br />SHARMA</span>",
     "subTitle": "<span>UI Developer</span> based in <span>INDIA</span>",
-    "ImgLink":myprofile,
+    "ImgLink":Profile,
     "phone": "+91 9877615401",
     "email": "sharmamonu42969@gmail.com",
     "btnText": "Work with me",
